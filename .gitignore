@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env/
+
+# macOS
+.DS_Store
+
+# Byte-compiled
+*.so
+
+# Logs
+*.log
+
+# Env files
+.env
+
+# Editor files
+.vscode/
+*.swp
+
+# Data
+*.sqlite3
+*.db
+
+# Ignore local credentials
+credentials.json
+
+# Ignore large data
+reference_sample_data.csv
