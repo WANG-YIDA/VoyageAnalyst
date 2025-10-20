@@ -59,19 +59,6 @@ export PBI_REPORT_ID="<your-report-id>"
 export HACKATHON_API_KEY="<your-api-key>"
 ```
 
-```bash
-export PBI_CLIENT_ID='d4513e50-29a7-4f57-a41f-68fae5006b67'
-export PBI_CLIENT_SECRET='uF08Q~1sS-bSDi4bZe8JuOyPrIZglZ4zRqgKLbMp'
-export PBI_TENANT_ID='27fa816c-95b5-4431-90d9-4d0ac1986f71'
-export PBI_WORKSPACE_ID='41675240-7b6e-4163-a0ed-52b5c3b13e01'
-export PBI_REPORT_ID='06bdda3d-459c-4632-8784-d43e6b208aab'
-export HACKATHON_API_KEY='b290ef8a17de4db7af5427ba607155ec'
-```
-
-
-Security note:
-- Never commit real secrets to version control. If secrets were previously committed, rotate them immediately and purge history if needed.
-
 ### 4) Run the app
 ```bash
 streamlit run app.py
